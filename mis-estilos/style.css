@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header{
+    background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
+}
+.logo1{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    background-image: linear-gradient(to top, rgb(50, 48, 92), rgb(50, 48, 92)  );
+}
+#menu{
+    color: blanchedalmond;
+}
+#menu:hover{
+    color: black;
+    transition: 0.5s;
+}
+#submenu{
+    background-image: linear-gradient(to top, black, rgb(50, 48, 92)  );
+    color: blanchedalmond;
+}
+#menu2{
+    transition: 0.5s;
+    color: blanchedalmond;
+}
+#menu2:hover{
+    color: black;
+    transition: 0.5s;
+}
+main{
+    background-image: linear-gradient(to top, black, rgb(50, 48, 92)  );
+   
+    padding: 45px;
+}
+.local{
+    display: grid;
+    grid-template-areas: " a b ";
+    grid-column-gap: 27px;
+    grid-row-gap: 35px;
+}
+
+.local1{
+    height: 445px;
+    padding-left: 100px;
+    grid-template: 15px;
+}
+
+#desc1{
+    color: blanchedalmond;
+    display: grid;
+    align-content: space-around;
+    font-family: 'Merriweather', serif;
+} 
+#desc2{
+    color: blanchedalmond;
+    display: grid;
+    align-content: space-around;
+    font-family: 'Merriweather', serif;
+} 
+h2{
+    padding-top: 35px;
+    display: grid;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    color: rgb(207, 38, 38);
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: color;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    0%{
+        color: rgb(255, 238, 0)
+    }
+    100%{
+        color: rgb(207, 38, 38);
+    }
+}
+footer{
+    background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
+    padding: 45px;
+}
+footer p{
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.Facebook{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    transition: 0.5s;
+}
+.Facebook:hover{
+    transform: scale(1.5);
+}
+
+.Instagram{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    transition: 0.5s;
+}
+.Instagram:hover{
+    transform: scale(1.5);
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: blanchedalmond;
+    font-family: 'Merriweather', serif;
+}
+main div{
+    padding-top: 30px;
+}
+.col{
+    display: grid;
+    justify-content: center;
+}
+#quilmes{
+    width: 112px;
+    margin: auto;
+}
+#quilmes1{
+    width: 73%;
+    margin: auto;
+}
+#quilmes3{
+    width: 56px;
+    margin: auto;
+}
+#andes1{
+    width: 239px;
+    margin: auto;
+}
+#andes2{
+    width: 115px;
+    margin: auto;
+}
+#corona{
+    width: 264px;
+    margin: auto;
+}
+#patagonia3{
+    width: 140px;
+    margin: auto;
+}
+#rutinic{
+    width:186px;
+    margin: auto;
+}
+#rutinim{
+    width: 107px;
+    margin: auto;
+}
+#trumpeterm{
+    width: 210px;
+    margin: auto;
+}
+#corderom{
+    width: 209px;
+    margin: auto;
+}
+#mosquita{
+    width: 225px;
+    margin: auto;
+}
+#luigi{
+    width: 170px;
+    margin: auto;
+}
+#rutinich{
+    width: 138px;
+    margin: auto;
+}
+#nortonc{
+    width: 202px;
+    margin: auto;
+}
+#santaj{
+    width: 219px;
+    margin: auto;
+}
+#gint{
+    width: 186px;
+    margin: auto;
+}
+#ballent{
+    width: 210px;
+    margin: auto;
+}
+#johnnyeb{
+    width: 120px;
+    margin: auto;
+}
+#johnnieg{
+    width: 240px;
+    margin: auto;
+}
+#absolut{
+    width: 242px;
+    margin: auto;
+}
+#skyy{
+    width: 242px;
+    margin: auto;
+}
+#merleg{
+    width: 211px;
+    margin: auto;
+}
+#jagerm{
+    width: 141px;
+    margin: auto;
+}
+#baileys{
+    width: 187px;
+    margin: auto;
+}
+#texto{
+    text-align: center;
+}
+.mapa1{
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+} 
+.titulo1{
+    padding-top: 35px;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+.nosotros1{
+    display:grid;
+    justify-content: center;
+}
+.Nosotros-2{
+    height: 600px;
+    padding-top: 30px;
+    margin: auto;
+}
+.nosotros{
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+    padding-top: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .local{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+     }   
+    #desc1{
+        font-size: x-large;
+        text-align: center;
+        flex-shrink: 1;
+     } 
+    #desc2{
+        order: 4;
+        text-align: center;
+        flex-shrink: 1;
+    }
+    main h1{
+        font-size: 41px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+    .mapa{
+        height: inherit;
+        width: 100%;
+    }
+    .titulo1{
+        font-size: 33px;
+        padding-top: 0;
+    }
+    .nosotros1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Nosotros-2{
+        width: 100%;
+        height: inherit;
+    }
+    .nosotros{
+        padding-top: 0;
+        text-align: center;
+    }
+}
